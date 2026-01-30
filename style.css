@@ -1,0 +1,45 @@
+
+
+/* General Styles */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #2b2a3c;
+}
+
+main {
+  padding: 0 2rem 2rem 2rem;
+}
+
+div {
+
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+/* Header Styling */
+
+header {
+  padding: 2rem 2rem;
+}
+
+/* Profile Photo Styling */
+
+img.profile-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); */
+  border-radius: 4px;
+}
+
